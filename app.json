@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "onBoardingApp",
+    "slug": "onBoardingApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "onBoardingApp"
+}
