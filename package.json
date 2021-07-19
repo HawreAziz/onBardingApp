@@ -1,5 +1,5 @@
 {
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -7,6 +7,11 @@
     "start": "react-native start"
   },
   "dependencies": {
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.5",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-native": "^0.64.12",
     "expo": "~42.0.1",
     "expo-splash-screen": "~0.11.2",
     "expo-status-bar": "~1.0.4",
@@ -18,7 +23,8 @@
     "react-native-reanimated": "~2.2.0",
     "react-native-screens": "~3.4.0",
     "react-native-unimodules": "~0.14.5",
-    "react-native-web": "~0.13.12"
+    "react-native-web": "~0.13.12",
+    "typescript": "^4.3.5"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0"
